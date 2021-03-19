@@ -10,3 +10,16 @@
         display: none;
     }
 }
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.card-img-top{
+    overflow: hidden;
+    transition: transform 0.5s ease-in;
+}
+.card-img-top:hover{
+    transform: scale(1.2)
+}
