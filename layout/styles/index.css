@@ -1,0 +1,12 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.658)
+}
+.header-logo{
+    flex-direction: row;
+    flex: auto;
+}
+@media screen and (max-width: 720px){
+    .header-description{
+        display: none;
+    }
+}
