@@ -23,3 +23,14 @@ a:hover{
 .card-img-top:hover{
     transform: scale(1.2)
 }
+
+.category{
+    overflow: hidden;
+}
+.category img{
+    cursor: pointer;
+    transition: transform 0.5s ease-in;
+}
+.category img:hover{
+    transform: translateY(-10px);
+}
